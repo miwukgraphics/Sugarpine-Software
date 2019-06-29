@@ -11,13 +11,22 @@ body, html {
     transition: all 1.0s ease;
     
   }
+
+  #get-started-nav:hover{
+    color:#ffc700;
+  }
+
+  #get-started-nav:not(hover){
+    color: rgba(138, 228, 157, 0.459);
+  }
+
   .navbar-dark .navbar-nav .nav-link:not(:hover) {
     color: rgba(255,255,255,.5);
     transition: all 1.0s ease;
-    
   }
+
+  
   .navbar-dark .navbar-nav .nav-link {
-   
     font-size: 1.5em;
   }
   .navbar-dark .navbar-brand{
@@ -34,8 +43,7 @@ body, html {
     font-size:3.5em;
     font-family: 'Amatic SC', cursive;
     text-align: right;
-    right:10%;
-
+    right:7.75%;
   }
   @media only screen and (max-width: 990px) {
       .telluric{
@@ -81,7 +89,7 @@ body, html {
     height:10px;
   }
   .aboutBackground{
-    background: linear-gradient(#222,#ddd);
+    /*background: linear-gradient(#222,#ddd);*/
   }
   .aboutTitle{
     text-align: center;
@@ -109,7 +117,7 @@ body, html {
   }
   .aboutText{
     font-size:2em;
-    color:#111;
+    color:#fff;
     font-family:'Jura', sans-serif;
   
   }
