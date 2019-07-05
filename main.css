@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Jura');
-
+body, html {
+    height: 100%;
+  }
   .navbar{
     font-family: 'Amatic SC', cursive;
   }
@@ -61,7 +63,7 @@
     /* The image used */
     background-image: url('treess.png');    
     /* Full height */
-    height: 100%; 
+    
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
