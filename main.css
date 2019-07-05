@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Jura');
-body, html {
-    height: 100%;
-  }
+
   .navbar{
     font-family: 'Amatic SC', cursive;
   }
