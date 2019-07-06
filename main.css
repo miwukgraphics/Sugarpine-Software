@@ -45,7 +45,7 @@ body, html {
     text-align: right;
     right:7.75%;
   }
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 768px) {
       .telluric{
         text-align: center;
         right:auto;
@@ -64,13 +64,14 @@ body, html {
     background-image: url('treess.png');    
     /* Full height */
     height: 100%; 
-  
+    width: 100%;
     /* Create the parallax scrolling effect */
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
   .mainContent{
     padding-top:20%;
   }
