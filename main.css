@@ -6,22 +6,22 @@ body, html {
   .navbar{
     font-family: 'Amatic SC', cursive;
   }
-  .navbar-dark .navbar-nav .nav-link:hover {
+  .navbar-dark .navbar-nav .linkAni:hover {
     color:#ffc700;
     transition: all 1.0s ease;
     
   }
-
-  #get-started-nav:hover{
-    color:#ffffff;
+  .navbar-dark .navbar-nav .linkAni1:hover {
+    color:#ffc700;
+    transition: all 1.0s ease;
+    
   }
-
-  #get-started-nav:not(hover){
-    color: rgba(138, 228, 157, 0.459);
-  }
-
-  .navbar-dark .navbar-nav .nav-link:not(:hover) {
+  .navbar-dark .navbar-nav .linkAni:not(:hover) {
     color: rgba(255,255,255,.5);
+    transition: all 1.0s ease;
+  }
+  .navbar-dark .navbar-nav .linkAni1:not(:hover) {
+    color:#00ff00;
     transition: all 1.0s ease;
   }
 
