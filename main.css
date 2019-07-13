@@ -51,6 +51,9 @@ body, html {
         right:auto;
         left:auto;
       }
+      .aboutText{
+        font-size: .75em;
+      }
     }
  
   .serviceImage{
